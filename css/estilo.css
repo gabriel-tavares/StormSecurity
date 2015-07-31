@@ -35,7 +35,7 @@
 	padding-bottom:18px;
 	border-bottom:3px solid #eadc03;
 }
-.navbar-inverse .navbar-nav>li>a:hover {
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:active, .navbar-inverse .navbar-nav>li>a:link  {
 	color:#998;
 }
 .nav>li>a.ajuste {
