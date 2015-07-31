@@ -111,36 +111,65 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 visible-xs select-artigo">
-						<select class="form-control">
-							<option>O GLOBO BLOGS - INOVAÇÃO</option>
-							<option>PEQUENAS EMPRESAS GRANDES NEGÓCIOS</option>
-							<option>REVISTA GALILEU</option>
-						</select>
+						<ul class="nav nav-tabs">
+						<li class="dropdown">
+						  <a class="pull-right" data-toggle="dropdown"><span class="caret"></span></a><a class="pull-left" data-toggle="tab" href="#pane1">Escolha a notícia:</a>
+						  <ul class="dropdown-menu">  
+								<li role="presentation" class="active"><a href="#1" aria-controls="1" role="tab" data-toggle="tab">PEQUENAS EMPRESAS GRANDES NEGÓCIOS</a></li>
+								<li role="presentation" ><a href="#2" aria-controls="2" role="tab" data-toggle="tab">O GLOBO BLOGS - INOVAÇÃO</a></li>
+								<li role="presentation"><a href="#3" aria-controls="3" role="tab" data-toggle="tab">REVISTA GALILEU</a></li>
+						  </ul>  
+						</li>   
+						</ul>
 					</div>
-					<div class="col-xs-12 col-md-6">
-						<h2 class="hidden-xs">PEQUENAS EMPRESAS GRANDES NEGÓCIOS</h2>
-						<p class="hidden-xs">Ex-hacker brasileiro projeta miniaviões para encontrar carros roubados, vigiar 
-						fazendas e gerenciar o trânsito</p>
-						<img src="images/entrevista.png" alt="Entrevista" class="img-responsive">
-						<small>VIGIA AÉREO: O modelo Vant, criado por Abreu Júnior, é versão compacta dos usados no Oriente Médio</small><br/>
-						<p>O tempo não decide entre ensolarado, nublado e chuvoso na Ilha de Guaratiba — bairro do Rio de Janeiro a 45 km do centro. “É bom que a gente já vê se o aviãozinho se garante em qualquer clima”, diz o engenheiro Wanderley Abreu Júnior. É o primeiro teste oficial do seu Veículo Aéreo Não Tripulado (doravante, Vant). Quem olha não dá nada. O aeromodelo mede 1,60 m da ponta de uma asa à da outra e pesa 750 g, mas tem versões maiores — de 3,5 kg e de 20 kg. O design também não é o forte, mas isso não parece preocupar Abreu Júnior. Seu negócio não é fabricar as aeronaves, mas o sistema de câmeras e sensores infravermelhos que as transforma em robôs de vigilância e monitoramento de tráfego.</p>
-						<br />
-						<p>Os Vants desenvolvidos pelo brasileiro são bem diferentes daqueles que ficaram conhecidos por custarem milhões de dólares e participarem de ações militares como a Guerra do Afeganistão e a captura de Bin Laden. Fazem parte de uma nova leva de veículos mais baratos, com menos recursos e projetados para o uso civil. Abreu Júnior não está só. A polícia da Austrália já recomendou ao governo</p>
+					<div class="col-xs-12 col-md-6 tab-content">
+						<div role="tabpanel" class="tab-pane active" id="1">
+							<h2 class="hidden-xs">PEQUENAS EMPRESAS GRANDES NEGÓCIOS</h2>
+							<p class="hidden-xs">Ex-hacker brasileiro projeta miniaviões para encontrar carros roubados, vigiar 
+							fazendas e gerenciar o trânsito</p>
+							<img src="images/entrevista.png" alt="Entrevista" class="img-responsive">
+							<small>VIGIA AÉREO: O modelo Vant, criado por Abreu Júnior, é versão compacta dos usados no Oriente Médio</small><br/>
+							<p>O tempo não decide entre ensolarado, nublado e chuvoso na Ilha de Guaratiba — bairro do Rio de Janeiro a 45 km do centro. “É bom que a gente já vê se o aviãozinho se garante em qualquer clima”, diz o engenheiro Wanderley Abreu Júnior. É o primeiro teste oficial do seu Veículo Aéreo Não Tripulado (doravante, Vant). Quem olha não dá nada. O aeromodelo mede 1,60 m da ponta de uma asa à da outra e pesa 750 g, mas tem versões maiores — de 3,5 kg e de 20 kg. O design também não é o forte, mas isso não parece preocupar Abreu Júnior. Seu negócio não é fabricar as aeronaves, mas o sistema de câmeras e sensores infravermelhos que as transforma em robôs de vigilância e monitoramento de tráfego.</p>
+							<br />
+							<p>Os Vants desenvolvidos pelo brasileiro são bem diferentes daqueles que ficaram conhecidos por custarem milhões de dólares e participarem de ações militares como a Guerra do Afeganistão e a captura de Bin Laden. Fazem parte de uma nova leva de veículos mais baratos, com menos recursos e projetados para o uso civil. Abreu Júnior não está só. A polícia da Austrália já recomendou ao governo</p>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="2">
+							<h2 class="hidden-xs">O GLOBO BLOGS - INOVAÇÃO</h2>
+							<p class="hidden-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+							<img src="images/entrevista.png" alt="Entrevista" class="img-responsive">
+							<small>VIGIA AÉREO: O modelo Vant, criado por Abreu Júnior, é versão compacta dos usados no Oriente Médio</small><br/>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<br />
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="3">
+							<h2 class="hidden-xs">REVISTA GALILEU</h2>
+							<p class="hidden-xs">Ex-hacker brasileiro projeta miniaviões para encontrar carros roubados, vigiar 
+							fazendas e gerenciar o trânsito</p>
+							<img src="images/entrevista.png" alt="Entrevista" class="img-responsive">
+							<small>VIGIA AÉREO: O modelo Vant, criado por Abreu Júnior, é versão compacta dos usados no Oriente Médio</small><br/>
+							<p>O tempo não decide entre ensolarado, nublado e chuvoso na Ilha de Guaratiba — bairro do Rio de Janeiro a 45 km do centro. “É bom que a gente já vê se o aviãozinho se garante em qualquer clima”, diz o engenheiro Wanderley Abreu Júnior. É o primeiro teste oficial do seu Veículo Aéreo Não Tripulado (doravante, Vant). Quem olha não dá nada. O aeromodelo mede 1,60 m da ponta de uma asa à da outra e pesa 750 g, mas tem versões maiores — de 3,5 kg e de 20 kg. O design também não é o forte, mas isso não parece preocupar Abreu Júnior. Seu negócio não é fabricar as aeronaves, mas o sistema de câmeras e sensores infravermelhos que as transforma em robôs de vigilância e monitoramento de tráfego.</p>
+							<br />
+							<p>Os Vants desenvolvidos pelo brasileiro são bem diferentes daqueles que ficaram conhecidos por custarem milhões de dólares e participarem de ações militares como a Guerra do Afeganistão e a captura de Bin Laden. Fazem parte de uma nova leva de veículos mais baratos, com menos recursos e projetados para o uso civil. Abreu Júnior não está só. A polícia da Austrália já recomendou ao governo</p>
+						</div>
 					</div>
 					<div class="col-xs-12 col-md-1 hidden-xs">
 						<div class="box">
 							<img src="images/face.jpg" alt="Face">
 							<img src="images/tweet.jpg" alt="Tweet" class="border">
-							<a href"#"><img src="images/avancar.jpg" alt="Avançar"><span>Próximo</span></a>
-							<a href"#"><img src="images/retornar.jpg" alt="Retornar"><span>Anterior</span></a>
+							<a href="#2" aria-controls="1" role="tab" data-toggle="tab"><img src="images/avancar.jpg" alt="Avançar"><span>Próximo</span></a>
+							<a href="#3" aria-controls="1" role="tab" data-toggle="tab"><img src="images/retornar.jpg" alt="Retornar"><span>Anterior</span></a>
 						</div>
 					</div>
 					<div class="col-xs-12 col-md-5 hidden-xs">
 						<div class="artigos">
-							<ul>
-								<li><a href"#">O GLOBO BLOGS - INOVAÇÃO</a></li>
+							<ul role="tablist">
+								<li role="presentation" class="active"><a href="#1" aria-controls="1" role="tab" data-toggle="tab">PEQUENAS EMPRESAS GRANDES NEGÓCIOS</a></li>
+								<li role="presentation" ><a href="#2" aria-controls="2" role="tab" data-toggle="tab">O GLOBO BLOGS - INOVAÇÃO</a></li>
+								<li role="presentation"><a href="#3" aria-controls="3" role="tab" data-toggle="tab">REVISTA GALILEU</a></li>
+								<!--<li><a href"#">O GLOBO BLOGS - INOVAÇÃO</a></li>
 								<li><a href"#">PEQUENAS EMPRESAS GRANDES NEGÓCIOS</a></li>
-								<li><a href"#">REVISTA GALILEU</a></li>
+								<li><a href"#">REVISTA GALILEU</a></li>-->
 							</ul>
 						</div>
 					</div>				
@@ -156,17 +185,17 @@
 							</div>
 							<div class="col-xs-12 col-md-6  contato2">
 								<span>Mande sua mensagem</span>
-								<form action="" method="" role="form">
+								<form role="form" data-toggle="validator">
 									<div class="form-group">
-										<input type="text" class="form-control w300" id="name" name="Nome" placeholder="seu nome" required="">
+										<input type="text" class="form-control" id="inputName" name="Nome" placeholder="seu nome" required>
 									</div>
 									<div class="form-group">
-										<input type="text" class="form-control w300" id="email" name="E-mail" placeholder="seu e-mail" required="">
+										<input type="email" class="form-control" id="inputEmail" name="E-mail" placeholder="seu e-mail" data-error="E-mail inválido" required>
 									</div>
 									<div class="form-group">
-										<textarea class="form-control" type="textarea" id="message" placeholder="sua mensagem" maxlength="400" rows="7"></textarea>
+										<textarea data-minlength="20" class="form-control" type="textarea" id="message" placeholder="sua mensagem" maxlength="400" rows="7" required></textarea>
 									</div>
-									<button type="submit" id="" name="enviar" class="btn btn-primary pull-right">Enviar</button>
+									<button type="submit" class="btn btn-primary pull-right">Enviar</button>
 								</form>
 							</div>
 							<div class="col-xs-12 col-md-6">
@@ -195,6 +224,7 @@
 			<script src="js/bootstrap.min.js"></script>
 			<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 			<script src="js/ie10-viewport-bug-workaround.js"></script>
+			<script src="js/validator.min.js"></script>
 			<script type="text/javascript">
 				$(document).ready(function() {
 					// navigation click actions	
@@ -230,6 +260,9 @@
 						log: function() { }
 					};
 				}
+			</script>
+			<script>
+			$('.dropdown-toggle').dropdown()
 			</script>
 		</body>
 	</html>								
