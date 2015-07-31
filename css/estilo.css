@@ -8,6 +8,9 @@
 	font-family: Adobe;
 	src: url("../fonts/AGaramondPro-Regular.woff");
 }
+.navbar {
+     min-height: 56px;
+}
 .navbar-inverse .navbar-toggle .icon-bar {
 	background-color:#1979bc;
 }
