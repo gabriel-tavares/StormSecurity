@@ -1,6 +1,6 @@
 # Storm Security
 
-Dentro do download que você vai encontrar os seguintes diretórios e arquivos, existem arquivos que ainda não possuem uma versão minified. Estrutura básica ficou assim:
+Dentro do download você vai encontrar os seguintes diretórios e arquivos, existem arquivos que ainda não possuem uma versão minified. Estrutura básica ficou assim:
 ```
 StormSecurity/
 ├── images/
