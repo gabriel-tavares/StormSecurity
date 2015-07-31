@@ -16,7 +16,8 @@ StormSecurity/
 │   ├── bootstrap.min.js
 │   ├── ie8-responsive-file-warning.js
 │   ├── ie10-viewport-bug-workaround.js
-│   └── ie-emulation-modes-warning.js
+│   ├── ie-emulation-modes-warning.js
+│   └── validator.min.js
 │
 ├── fonts/
 │   ├── AGaramondPro-Regular.woff
